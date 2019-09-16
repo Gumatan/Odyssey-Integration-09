@@ -10,26 +10,29 @@
 .yellow{
   background-color: rgb(255 204 0)
 }
+.container-fluid{
+  height: 100;
+}
 
 /*Responsive design*/
 @media (min-aspect-ratio: 1/1) {
-  .row {
-    height: 8.5vh;
+  .container-fluid{
+    height: 100vh;
   }
-  .row > div {
-    
-    height: 100%;
+  
+  .row  {
+    height: 9%;
   }
 }
 
 
 
 @media (max-aspect-ratio: 1/1) {
-  .row {
-    height: 8.5vw;
+  .container-fluid{
+    height: 100vw;
   }
-  .row > div {
+  .row {
     
-    height: 100%;
+    height: 9%;
   }
 }
